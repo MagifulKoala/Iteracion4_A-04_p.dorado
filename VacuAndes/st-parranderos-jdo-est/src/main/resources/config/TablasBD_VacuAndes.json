@@ -1,0 +1,19 @@
+{
+	"title": "Nombres de las tablas de Parranderos Uniandes para la aplicación A",
+	"unidadPersistencia": "VacuAndes",
+	"tablas":
+	[
+		"vacuandes_sequence",
+		"MinisterioSalud",
+		"EntradaPlan",
+		"EPSRegional",
+		"Vacuna",
+		"PuntoVacunacion",
+		"TieneVacuna",
+		"UsuarioResidente",
+		"ProcesoVacunacion",
+		"Rol",
+		"Cita",
+		"DosisVacuna"
+	]
+}

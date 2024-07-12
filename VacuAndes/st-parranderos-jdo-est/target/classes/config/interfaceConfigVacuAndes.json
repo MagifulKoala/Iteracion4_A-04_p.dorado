@@ -1,0 +1,206 @@
+{
+	"title": "Demostración de Parranderos Uniandes",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+
+		{ "menuTitle": "Iteracion 1 - CRUD",
+		  "options":
+			[
+				{
+					"label": "crear Ministerio",
+					"event": "adicionarMinisterioSalud"
+				},
+				{
+					"label": "crear EPS",
+					"event": "adicionarEPSRegional"
+				},
+				{
+					"label": "crear PuntoVacunacion",
+					"event": "adicionarPuntoVacunacion"
+				},
+				{
+					"label": "crear Usuario",
+					"event": "adicionarUsuarioResidente"
+				},
+				{
+					"label": "crear ProcesoVacunacion",
+					"event": "adicionarProcesoVacunacion"
+				},
+				{
+					"label": "crear Cita",
+					"event": "adicionarCita"
+				},
+				{
+					"label": "crear Vacuna",
+					"event": "adicionarVacuna"
+				},
+				{
+					"label": "crear Dosis",
+					"event": "adicionarDosisVacuna"
+				},
+				{
+					"label": "crear EntradaPlan",
+					"event": "adicionarEntradaPlan"
+				},
+				{
+					"label": "actualizar estado cita",
+					"event": "actualizarEstadoCita"
+				},
+				{
+					"label": "actualizar procesoVacunacion",
+					"event": "actualizarProcesoVacunacion"
+				},
+				{
+					"label": "darCiudadanosAtendidosPorPunto",
+					"event": "darCiudadanosAtendisoPorPunto"
+				},
+				{
+					"label": "dar20PuntosMasEfectivos",
+					"event": "dar20PuntosMasEfectivos"
+				},
+				{
+					"label": "mostrarIndiceVacunacion",
+					"event": "mostrarIndiceVacunacion"
+				}
+
+			]
+		},
+		{ "menuTitle": "Iteración 3",
+		  "options":
+			[
+				{
+					"label": "RF8: registrar lote de vacunas a EPS",
+					"event": "adicionarTieneVacuna"
+				},
+				{
+					"label": "RF9: registrar lote de vacunas a Punto de vacunación",
+					"event": "modificarPuntoDeVacunacionDosisPorLote"
+				},
+				{
+					"label": "RF13: REGISTRAR CAMBIO DE ESTADO DE UN PUNTO DE VACUNACIÓN",
+					"event": "actualizarEstadoPuntoVacunacion"
+				},
+				{
+					"label": "RF14: DESHABILITAR UN PUNTO DE VACUNACIÓN",
+					"event": "deshabilitarPuntoVacunacion"
+				},
+				{
+					"label": "RF15: REHABILITAR UN PUNTO DE VACUNACIÓN",
+					"event": "rehabilitarPuntoVacunacion"
+				},
+				{
+					"label": "RFC7 - ANALIZAR LA OPERACIÓN DE VACU-ANDES",
+					"event": "analizarOperacionVacuAndes"
+				},
+				{
+					"label": "RFC8 - ANALIZAR LAS COHORTES DE CIUDADANOS DADOS CRITERIOS FLEXIBLES",
+					"event": "analizarCohorteCiudadana"
+				},
+				{
+					"label": "RFC9 - ENCONTRAR LOS CIUDADANOS QUE ESTUVIERON CONTACTO CON OTRO CIUDADANO DADO",
+					"event": "encontrarCiudadanosEnContacto"
+				}
+
+			]
+		},
+		{ "menuTitle": "Iteración 4", 
+		  "options":
+			[
+				{
+					"label": "RFC10: consultarVacunados",
+					"event": "consultarVacunados"
+				},
+				{
+					"label": "RFC11: consultarNOVacunados",
+					"event": "consultarNoVacunados"
+				},
+				{
+					"label": "RFC12: consultarFuncionamiento",
+					"event": "consultarFuncionamiento"
+				}
+
+			]
+		},
+		{ "menuTitle": "Listar datos",
+		  "options":
+			[
+				{
+					"label": "Listar usuarios",
+					"event": "listarUsuarios"
+				},
+				{
+					"label": "Listar Ministerios de Salud",
+					"event": "listarMinisterios"
+				}
+
+			]
+		},
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log Parranderos",
+					"event": "mostrarLogParranderos"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de parranderos",
+					"event": "limpiarLogParranderos"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Presentación general",
+					"event": "mostrarPresentacionGeneral"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				},
+				{
+					"label": "Arquitectura de referencia",
+					"event": "mostrarArqRef"
+				},
+				{
+					"label": "Javadoc Parranderos",
+					"event": "mostrarJavadoc"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+	]
+}
+	
